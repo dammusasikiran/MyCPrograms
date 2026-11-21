@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+  double M;
+  if(scanf("%lf",&M) == 1) {
+   int ans = (int)(M + 0.5);
+   printf("%d\n",ans);
+
+
+  }   
+    return 0;
+}
